@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ../common/nav.ejs %>
+</head>
+<body class="container">
+  <main>
+      <div class="jumbotron">
+          <h1>This is great</h1>
+          <p>Welcome to templating using EJS</p>
+      </div>
+      <form method='post'>
+          用户名1：<input type="text" id="txtUserName" name="txtUserName" />
+          密码：<input type="password" id="txtUserPwd" name="txtUserPwd" />
+          <input type="submit" value="提交">
+        </form>
+  </main>
+
+  <footer>
+      <% include ../common/footer.ejs %>
+  </footer>
+
+</body>
+</html>
+
+
+
